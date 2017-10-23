@@ -8,6 +8,6 @@ WORKDIR /workspace/
 
 RUN npm install
 
-RUN npm run dev
+RUN npm run build
 
 CMD npm run start
